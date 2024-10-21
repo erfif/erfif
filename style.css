@@ -4,44 +4,13 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-.flower {
-    position: relative;
-    width: 100px;
-    height: 100px;
-}
-
-.petal {
-    position: absolute;
-    width: 60px;
-    height: 30px;
-    background-color: yellow;
-    border-radius: 30px;
-    transform-origin: 50% 100%;
-}
-
-.petal:nth-child(1) { transform: rotate(0deg); }
-.petal:nth-child(2) { transform: rotate(60deg); }
-.petal:nth-child(3) { transform: rotate(120deg); }
-.petal:nth-child(4) { transform: rotate(180deg); }
-.petal:nth-child(5) { transform: rotate(240deg); }
-.petal:nth-child(6) { transform: rotate(300deg); }
-
-.center {
-    position: absolute;
-    top: 35px;
-    left: 35px;
-    width: 30px;
-    height: 30px;
-    background-color: orange;
-    border-radius: 50%;
-}
-
-.text {
-    margin-top: 20px;
-    font-size: 24px;
-    color: black;
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
